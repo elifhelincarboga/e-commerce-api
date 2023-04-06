@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "build": "sucrase ./src -d ./dist --transforms imports"
+    "build": "node src/app.js"
   },
   "dependencies": {
     "accesscontrol": "^2.2.1",
